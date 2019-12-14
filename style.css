@@ -1,0 +1,465 @@
+.hero-image {
+  background-image: url("images/4.jpg"); /* The image used */
+  height: 920px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  line-height:0;
+  font-family:"Verdana";
+}
+
+.hero-image2 {
+  background-image: url("images/admin_login.jpg"); /* The image used */
+  height: 920px;
+  /*background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image3 {
+  background-image: url("images/employee_login.jpg"); /* The image used */
+  height: 920px;
+  /*background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image4 {
+  background-image: url("images/user_login.jpg"); /* The image used */
+  height: 920px;
+  /*background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image5 {
+  background-image: url("images/user_login.jpg"); /* The image used */
+  height: 1024px;
+  /*background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image6 {
+  background-image: url("images/background.jpg"); /* The image used */
+  height: 4096px;
+  /*background-repeat: no-repeat; /* Do n7t repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+ 
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+ 
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ 
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow:hidden;
+    width:100%;
+}
+body {
+  overflow-x: hidden;
+}
+ 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+ 
+a svg{
+  transition:all .5s ease;
+ 
+  &:hover{
+    #transform:rotate(180deg);
+  }
+}
+ 
+#ico{
+  display: none;
+}
+ 
+.menu{
+  background: #000;
+  display: none;
+  padding: 5px;
+  width: 320px;
+  @include border-radius(5px);
+ 
+  #transition: all 0.5s ease;
+ 
+  a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 2px;
+    margin: 3px 0;
+    text-decoration: none;
+    background: #444;
+ 
+    &:nth-child(1){
+      margin-top: 0;
+      @include border-radius(3px 3px 0 0 );
+    }
+    &:nth-child(5){
+      margin-bottom: 0;
+      @include border-radius(0 0 3px 3px);
+    }
+ 
+    &:hover{
+      background: #555;
+    }
+  }
+}
+
+.order-menu-text{
+ color: "Black";
+ font-family:"Arial";
+ font-size: 35px;
+}
+
+.button1 {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left:15%;
+}
+.button2 {
+  background-color: rgb(58, 54, 55);
+  border: none;
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 42%;
+}
+.button3 {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+}
+fieldset {
+  font-size:40px;
+  padding:50px;
+  width:250px;
+  line-height:1.8;
+}
+
+.button4 {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 30px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left:2%;
+}
+.button5 {
+  background-color: rgb(58, 54, 55);
+  border: none;
+  color: white;
+  padding: 30px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top:80%;
+  left: 45%;
+}
+.button6 {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 30px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 78%;
+}
+.button7 {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+.button8 {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 30px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 60%;
+}
+body{
+  margin-top:20px;
+  background:#f8f8f8
+}
+/*set border to the form*/ 
+      
+form { 
+  border: 3px solid #f1f1f1; 
+} 
+/*assign full width inputs*/ 
+
+input[type=text], 
+input[type=password] { 
+  width: 30%; 
+  padding: 12px 20px; 
+  margin: 8px 0; 
+  display: inline-block; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box; 
+} 
+/*set a style for the buttons*/ 
+
+button { 
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 14px 20px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer; 
+  width: 15%; 
+} 
+/* set a hover effect for the button*/ 
+
+button:hover { 
+  opacity: 0.8; 
+} 
+/*set extra style for the cancel button*/ 
+
+.cancelbtn { 
+  width: auto; 
+  padding: 10px 18px; 
+  background-color: #f44336; 
+  top: 85%;
+left: 60%;
+} 
+/*centre the display image inside the container*/ 
+
+.imgcontainer { 
+  text-align: center; 
+  margin: 24px 0 12px 0; 
+} 
+/*set image properties*/ 
+
+img.avatar { 
+  width: 40%; 
+  border-radius: 50%; 
+} 
+/*set padding to the container*/ 
+
+.container { 
+  padding: 16px; 
+} 
+/*set the forgot password text*/ 
+
+span.psw { 
+  float: right; 
+  padding-top: 16px; 
+} 
+/*set styles for span and cancel button on small screens*/ 
+
+@media screen and (max-width: 300px) { 
+  span.psw { 
+      display: block; 
+      float: none; 
+  } 
+  .cancelbtn { 
+      width: 100%; 
+  } 
+} 
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 
+form {
+  display :inline;
+  margin:0;
+  padding:0;
+}

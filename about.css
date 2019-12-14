@@ -1,0 +1,119 @@
+/*------------------------------------
+	Fonts
+------------------------------------*/
+tr {display:block;width:99.9%;clear:both}
+@font-face 
+{
+	font-family:"WeblySleek UI Light";
+	src:url("/resources/fonts/weblysleekuil.eot?") format("eot"),
+	url("/resources/fonts/weblysleekuil.woff") format("woff"),
+	url("/resources/fonts/weblysleekuil.ttf") format("truetype"),
+	url("/resources/fonts/weblysleekuil.svg#WeblySleekUILight") format("svg");
+}
+@font-face
+{
+	font-family:"WeblySleek UI Semilight";
+	src:url("/resources/fonts/weblysleekuisl.eot?") format("eot"),
+	url("/resources/fonts/weblysleekuisl.woff") format("woff"),
+	url("/resources/fonts/weblysleekuisl.ttf") format("truetype"),
+	url("/resources/fonts/weblysleekuisl.svg#WeblySleekUISemilight") format("svg");
+}
+@font-face
+{
+	font-family:"WeblySleek UI Semibold";
+	src:url("/resources/fonts/weblysleekuisb.eot?") format("eot"),
+	url("/resources/fonts/weblysleekuisb.woff") format("woff"),
+	url("/resources/fonts/weblysleekuisb.ttf") format("truetype"),
+	url("/resources/fonts/weblysleekuisb.svg#WeblySleekUISemibold") format("svg");
+}
+/*------------------------------------
+	Layout
+------------------------------------*/
+*
+{
+	margin:0px;
+	padding:0px;
+	border:0px none;
+	font-family:"WeblySleek UI Semilight", Tahoma, Arial, Helvetica, sans-serif;
+	font-size:1em;
+    line-height:1.3em;
+	color:#86755D;
+}
+body
+{
+	/*background:url(/images/design-assets/wov-bg.jpg) center center no-repeat;*/
+	background:url(/images/design-assets/old-paper.jpg) center center no-repeat;
+	background-size:cover;
+	/*background-attachment:fixed;*/
+}
+/*------------------------------------
+	Columns and general assets
+------------------------------------*/
+.clear
+{
+	clear:both;
+	display:block;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+.block{display:block}
+.spacer{display:block; height:0.8em}
+.spacer-2x{display:block; height:1.6em}
+.spacer-3x{display:block; height:2.4em}
+
+.padding{padding:0.8em;}
+.padding-offset{padding-left:0.8em; padding-right:0.8em;}
+.padding-top-bottom{padding-top:0.8em; padding-bottom:0.8em;}
+.padding-top{padding-top:0.8em;}
+.padding-right{padding-right:0.8em;}
+.padding-bottom{padding-bottom:0.8em;}
+.padding-left{padding-left:0.8em;}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, table
+{
+	margin-bottom:0.8em;
+}
+.margin-top-0{margin-top:0;}
+.margin-right-0{margin-right:0;}
+.margin-bottom-0{margin-bottom:0;}
+.margin-left-0{margin-left:0;}
+
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+
+.tiny{font-size:0.6em}
+.small{font-size:0.8em}
+.medium{font-size:1.5em}
+.large{font-size:2em}
+.extra-large{font-size:3em}
+
+.capitalize{text-transform:uppercase;}
+.light{font-family:"WeblySleek UI Light", Tahoma, Arial, Helvetica, sans-serif}
+.normal{font-weight:normal}
+.bold{font-family:"WeblySleek UI Semibold", Tahoma, Arial, Helvetica, sans-serif;}
+.center{text-align:center !important}
+.align-right{text-align:right !important}
+
+.pointer{cursor:pointer}
+.link{text-decoration:none}
+.link:hover{text-decoration:underline}
+
+/* site specific styles */
+.brown-bg{background:#49382A}
+.bronze{color:#86755D}
+.light-golden{color:#C7C397}
+.solo-column
+{
+	width:800px;
+	margin:0 auto;
+}
+.call-to-action li
+{
+	display:inline-block;
+	margin:0 0.2em;
+}
+#about-ul
+{
+	list-style:none;
+}
+
