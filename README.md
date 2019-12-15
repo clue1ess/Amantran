@@ -25,3 +25,15 @@ Three types of end-users have different functionality which are as follows:
   
 3. Customer
 	Creating account, can book a table online, order food oline.
+
+### How to run: 
+
+1. Start apache and mysql server in xampp
+
+2. Import rms.sql file 
+
+3. Save all above files in htdocs folder in xampp
+
+4. Go to localhost/Amantran/index.html
+
+
