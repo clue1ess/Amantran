@@ -45,8 +45,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `a_fname`, `a_lname`, `email`, `phone_no`, `passwd`, `street`, `city`, `state`) VALUES
-(1, 'Gouri', 'Nangliya', 'gmn@gmail.com', '7887483031', 'gmn7', 'coep', 'pune', 'Maharashtra'),
-(6, 'swap', 'babar', 'swap@gmail.com', '7083255059', 'swap', 'coep', 'pune', 'maharashtra');
+(1, 'Gouri', 'Nangliya', 'gmn@gmail.com', '1259874634', 'gmn7', 'coep', 'pune', 'Maharashtra'),
+(6, 'swap', 'babar', 'swap@gmail.com', '4569321785', 'swap', 'coep', 'pune', 'maharashtra');
 
 -- --------------------------------------------------------
 
