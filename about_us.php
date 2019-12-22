@@ -164,7 +164,7 @@
 		<span class="spacer-3x"></span>
 		<p class="center">&copy;2019 Amantran</p>
 		<div class="center">
-			<a class="small link" href="index.html" target="_blank">Website by Gouri & Swapna</a>
+			<a class="small link" href="index.html" target="_blank">Website</a>
 		</div>
 		<span class="spacer-3x"></span>
 	</div>
