@@ -97,7 +97,7 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`c_id`, `c_fname`, `c_lname`, `email`, `phone_no`, `passwd`, `street`, `city`, `state`) VALUES
 (3, 'ted', 'mosby', 'tedm@gmail.com', '4563217895', 'ted', 'iitb', 'mumbai', 'maharashtra'),
 (4, 'robin', 'scherbatsky', 'robins@gmail.com', '7632541896', 'robin', 'iisc', 'bangalore', 'karnataka'),
-(6, 'barney', 'stinson', 'barneys@gmail.com', '4563289714', 'barney', 'iitkgp, 'kharagpur', 'west bengal'),
+(6, 'barney', 'stinson', 'barneys@gmail.com', '4563289714', 'barney', 'iitkgp', 'kharagpur', 'west bengal'),
 (7, 'marshell', 'erickson', 'marshelle@gmail.com', '7236541899', 'marshell', 'iitm', 'madras', 'tamil nadu'),
 (8, 'lily', 'aldrin', 'lilya@gmail.com', '7523641896', 'lily', 'iitg', 'guwahati', 'assam');
 
