@@ -45,8 +45,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `a_fname`, `a_lname`, `email`, `phone_no`, `passwd`, `street`, `city`, `state`) VALUES
-(1, 'Gouri', 'Nangliya', 'gmn@gmail.com', '1259874634', 'gmn7', 'coep', 'pune', 'Maharashtra'),
-(6, 'swap', 'babar', 'swap@gmail.com', '4569321785', 'swap', 'coep', 'pune', 'maharashtra');
+(1, 'Sherlock', 'Holmes', 'sher@gmail.com', '1259874634', 'sher', '221B baker street', 'london', 'england'),
+(6, 'Harry', 'Potter', 'harry@gmail.com', '4569321785', 'harry', 'Hogwarts', 'Alnwick Castle', 'Northumberland');
 
 -- --------------------------------------------------------
 
@@ -95,11 +95,11 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`c_id`, `c_fname`, `c_lname`, `email`, `phone_no`, `passwd`, `street`, `city`, `state`) VALUES
-(3, 'shiwani', 'bayas', 'bayas@gmail.com', '4563217895', 'shiwani', 'coep', 'pune ', 'maharashtra'),
-(4, 'ish', 'dhondge', 'dhondge@gmail.com', '7632541896', 'ish', 'coep', 'pune', 'maharashtra'),
-(6, 'tanu', 'jirapure', 'jirapure@gmail.com', '4563289714', 'tanu', 'coep', 'pune ', 'maharashtra'),
-(7, 'meeti', 'dixit', 'dixit@gmail.com', '7236541899', 'meeti', 'kakade city, karve nagar', 'pune', 'maharshtra'),
-(8, 'riya', 'vidhale', 'vidhale@gmail.com', '7523641896', 'riya', 'coep', 'pune', 'maharashtra');
+(3, 'ted', 'mosby', 'tedm@gmail.com', '4563217895', 'ted', 'iitb', 'mumbai', 'maharashtra'),
+(4, 'robin', 'scherbatsky', 'robins@gmail.com', '7632541896', 'robin', 'iisc', 'bangalore', 'karnataka'),
+(6, 'barney', 'stinson', 'barneys@gmail.com', '4563289714', 'barney', 'iitkgp, 'kharagpur', 'west bengal'),
+(7, 'marshell', 'erickson', 'marshelle@gmail.com', '7236541899', 'marshell', 'iitm', 'madras', 'tamil nadu'),
+(8, 'lily', 'aldrin', 'lilya@gmail.com', '7523641896', 'lily', 'iitg', 'guwahati', 'assam');
 
 -- --------------------------------------------------------
 
@@ -119,9 +119,9 @@ CREATE TABLE `customer_visited` (
 --
 
 INSERT INTO `customer_visited` (`c_id`, `c_fname`, `c_lname`, `phone_no`) VALUES
-(55, 'sam', 'mirande', '7891236548'),
-(56, 'khushbu', 'nangliya', '7412589638'),
-(57, 'radha', 'nangliya', '7744008461');
+(55, 'richard', 'hendricks', '9632526548'),
+(56, 'erlich', 'backmann', '7632589412'),
+(57, 'gavin', 'belson', '1245639871');
 
 -- --------------------------------------------------------
 
