@@ -1,6 +1,6 @@
-# Restaurant Management System
+# Amantran
 
-A user-friendly website for online/offline food orders and online table booking.
+Restaurant Management System - A user-friendly website for online/offline food orders and online table booking.
 
 ### Languages used : 
 MySQL, PHP,  HTML, CSS, Javascript.
